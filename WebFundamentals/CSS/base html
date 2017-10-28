@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>About Python</title>
+  <link rel="stylesheet" style="text/css" href="css.stylesheet">
+  <div id="header">
+    <div id="python_logo"><img src="python.png" alt="Python Logo"></div>
+    <h1 id="python">Python</h1>
+    <div class="textsize"><p>Text Size: <link rel="stylesheet" href="normal.html">Normal? <link rel="stylesheet" href="normal.html"> Large?</p></div>
+    <div id="searchbar"><input type="text" name="search" placeholder"Search"></div>
+    <div id="nav">
+      <div class="nav_text"><h1><link rel="stylesheet" href="about.html">About</h1></div>
+      <div class="nav_text"><h1><link rel="stylesheet" href="downloads.html">Downloads</h1></div>
+      <div class="nav_text"><h1><link rel="stylesheet" href="doc.html">Documentation</h1></div>
+      <div class="nav_text"><h1><link rel="stylesheet" href="comty.html">Community</h1></div>
+      <div class="nav_text"><h1><link rel="stylesheet" href="news.html">News</h1></div>
+      <div class="nav_text"><h1><link rel="stylesheet" href="events.html">Events</h1></div>
+    </div>
+      <div id="directory">
+        <ul>
+          <li><h2><link rel="stylesheet" href="docs.html">Docs</h2></li>
+          <li><h2><link rel="stylesheet" href="audiovis.html">Audio/Visual Talks</h2></li>
+          <li><h2><link rel="stylesheet" href="docs.html">Beginner's Guide</h2></li>
+          <li><h2><link rel="stylesheet" href="audiovis.html">Developer's Guide</h2></li>
+          <li><h2><link rel="stylesheet" href="docs.html">PEP Index</h2></li>
+          <li><h2><link rel="stylesheet" href="audiovis.html">Python Books</h2></li>
+          <li><h2><link rel="stylesheet" href="docs.html">FAQ</h2></li>
+        </ul>
+      </div>
+      <div id="header_text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptatibus eaque molestias ea nihil quibusdam esse ipsum culpa debitis itaque sunt deleniti distinctio numquam temporibus atque quisquam praesentium neque laboriosam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro delectus perspiciatis perferendis harum voluptatem neque quod voluptatum libero recusandae voluptate et ad, non tempora? Eligendi et molestias beatae quae!</p>
+      <div id="motto">
+        <h3>Beautiful is better than ugly;</h3>
+        <h3>Explicit is better than implicit;</h3>
+        <h3>Simple is better than complex;</h3>
+        <h3>Complex is better than complicated;</h3>
+        <h3>Readability counts;</h3>
+        <div id="zen"><h4>The Zen of Python</h4></div>
+        </div>
+      </div>
+  </div> 
+</head>
+<body>
+    <div id= "col_left"><h4>Getting Started</h4><p><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nostrum voluptas reiciendis officia ad totam eius natus quae dolorum, nulla eos numquam! Qui, tempore in. Officiis fuga nam provident totam!</div></p>
+  <ul>
+    <li><link rel="stylesheet" href="beg_guide_p.html">Beginnner's Guide, Programmers</li>
+    <li><link rel="stylesheet" href="bg_guide_np.html">Beginner's Guide, Non-Programmers</li>
+    <li><link rel="stylesheet" href="code_sample.html">Code sample and snippets for Beginners</li>
+  </ul>
+    </div> 
+    <div id= "col_right"><h4>Applications</h4><p><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nostrum voluptas reiciendis officia ad totam eius natus quae dolorum, nulla eos numquam! Qui, tempore in. Officiis fuga nam provident totam!</div></p>
+<ul>
+  <li><link rel="stylesheet" href="webdev.html">Web and Internet Development</li>
+  <li><link rel="stylesheet" href="datbase_acc.html">Database Access</li>
+  <li><link rel="stylesheet" href="desktop_guis.html">Desktop GUIs</li>
+  <li><link rel="stylesheet" href="network_prg">Network Programming</li>
+  <li><link rel="stylesheet" href="sftwre_gm_dev.html">Software and Game Development</li>
+</ul>
+    </div>
+  <div id="footer">
+    <div class="footer_text"><h4>Help and General Contact</h4></div>
+    <div class="footer_text"><h4>Diversity Initiatives</h4></div>
+    <div class="footer_text"><h4>Submit Website Bugs</h4></div>
+  </div>
+</body>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)file:///C:/Users/blain/Desktop/DojoAssignments/WebFundamentals/Javascript/jqeury%20functions.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>jQuery functions</title>
+	<style>
+		p{
+			margin: 8px;
+			font-size: 16px;
+		}
+		.selected{
+			color: red;
+		}
+		.meow{
+			margin: 5px;
+			font-size: 16px;
+		}
+	</style>
+	<script src="./jQuery functions_files/jquery.min.js.download"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#hiddentext').hide();
+			$('#hiddentoggle').hide();
+			$('#slidedowntext').hide();
+			$('#slideToggletext').hide();
+			$('#fadeintext').hide();
+			$('#clickme').click(function(){
+				alert('you clicked me');
+			})
+			$('#hideme').click(function(){
+				$('#hideme').hide();
+			})
+			$('#showme').click(function(){
+				$('#hiddentext').show();
+			})
+			$('#toggleme').click(function(){
+				$('#hiddentoggle').toggle();
+			})
+			$('#slideDown').click(function(){
+				$('#slidedowntext').slideDown();
+			})
+			$('#slideUp').click(function(){
+				$('#slideuptext').slideUp();
+			})
+			$('#slideToggle').click(function(){
+				$('#slideToggletext').slideToggle();
+			})
+			$('#fadein').click(function(){
+				$('#fadeintext').fadeIn();
+			})
+			$('#fadeOut').click(function(){
+				$('#fadeOuttext').fadeOut();
+			})
+			$('#addClass').click(function(){
+				$('#addClass').text('newclass')
+				$('#addClass').addClass('meow');
+			})
+			$('#before').click(function(){
+				$('#after').before('new before statement')
+			})
+			$('#after').click(function(){
+				$('#after').after('new after statement');
+			})
+			$('#append').click(function(){
+				$('#append').append(' new append');
+			})
+			$('#htmlcontent').hover(function(){
+				var pstring = $('#touch').html();
+				$('#container').text(pstring);
+			})
+			$('#attr').click(function(){
+				var	attrstring = $('li').attr('id');
+				$('#attr_container').text(attrstring);
+			})
+			$('#val').click(function(){
+				var valstring = $('li#showme').val();
+				$('#valcontainer').text(valstring);
+			})
+			$('#text').click(function(){
+				$('#textcontainer').text('pie');
+			})
+			$('#data').data( "test", { first: 16, last: "pizza!" } );
+				$( "span:first" ).text( $( "div" ).data( "test" ).first );
+				$( "span:last" ).text( $( "div" ).data( "test" ).last );
+
+		})
+	</script>
+</head>
+<body>
+	<p id="touch">touch</p>
+	<div>
+  	<span></span>
+
+  	<span></span>
+	</div>
+ 
+	<ul>
+		<li id="clickme">.click</li>
+		<li id="hideme">.hide</li>
+		<li id="showme">.show
+			<p id="hiddentext" style="display: none;">Hello</p></li>
+		<li id="toggleme">.toggle
+		<p id="hiddentoggle" style="display: none;">woof</p></li>
+		<li id="slideDown">.slideDown
+			<p id="slidedowntext" style="display: none;">Safe!</p></li>
+		<li id="slideUp">.slideUp
+			<p id="slideuptext">I'm falling up</p></li>
+		<li id="slideToggle">.slideToggle
+			<p id="slideToggletext" style="display: none;">Look at me</p></li>
+		<li id="fadein">.fadeIn
+			<p id="fadeintext" style="display: none;">from within the mist</p></li>
+		<li id="fadeOut">.fadeOut
+			<p id="fadeOuttext">into the shadows</p></li>
+		<li id="addClass">.addClass</li>
+		<li id="before">.before</li>
+		<li id="after">.after</li>
+		<li id="append">.append</li>
+		<li id="htmlcontent">.html
+			<p id="container"></p></li>
+		<li id="attr">.attr
+			<p id="attr_container"></p></li>
+		<li id="val">.val
+			<p id="valcontainer">
+			</p></li>
+		<li id="text">.text
+			<p id="textcontainer"></p></li>
+		<li id="data">.data</li>
+	</ul>
+
+</body></html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquerynotes</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('$container').html("");
+				for(var i - 0; i < 8; i++) {
+					console.log('#container');
+					$('#container').append("<img src='cat1.png' alt='ninja1.png'>");
+				}
+			});
+			$(document).on('click', 'img', function(){
+				$(this).css('visibility')
+			})
+		});
+	</script>
+	<style type="text/css">
+		img{
+			max-width:200px;
+		}
+	</style>
+</head>
+<body>
+	<p>selector(.)relation(siblings)('element')
+	.siblings('h1')
+	.children('img')
+	.parent('p')</p>
+	<img src="cat1.png" alt="ninja1.png">
+	<div id="container"></div>
+	<button id="create">Create images</button>
+</body>
+</html>

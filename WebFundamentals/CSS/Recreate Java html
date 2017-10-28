@@ -1,0 +1,35 @@
+<head>
+      <title>Javascript Recreate</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+       <div id="container">
+         <div id="header">
+           <h1>JavaScript Basics</h1></div>
+         <div id="navigation">
+             <a href="home.html">Home</a></li> <div id=navtext>
+              <ul><li><a href="javascript.html">Javacript Overview</a></li>
+                <div id=javalinks><ul>
+                  <li><a href="variabledec.html">Variable Declaration</a></li>
+                  <li><a href="variableasgn.html">Variable Assignment</a></li>
+                 </div>
+                <li><a href="projects.html">Projects</a></li></div>
+                </ul>
+           </ul>
+         </div>
+         <div id="maintext">
+              <h2>JavaScript Basics</h2>
+          <p>words words and more words. next line.</p>
+                <div id=subcontents><ul>
+                  <li><a href="variabledec.html">Variable Declaration</a><p>blahalsdf</p></li>
+                    <li><a href="variableasgn.html">Variable Assignment</a></li>
+                </div>
+          </div>
+           <div id="Link">
+             <p>For more useful info check out this url:</p>
+
+           </div>
+         </div>
+      </div><!-- end of wrapper -->
+   </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Users</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function(){
+				$('.btn').click(function(){
+					$('#first_data').append($('#first_input').val());;
+					$('#last_data').append($('#last_input').val());;
+					$('#email_data').append($('#email_input').val());;
+					$('#phone_data').append($('#phone_input').val());;
+				});
+			});	
+	</script>
+</head>
+<body>
+	<table>
+		<tbody>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+			</tr>
+			<tr>
+				<td id='first_data'></td>
+				<td id='last_data'></td>
+				<td id='email_data'></td>
+				<td id='phone_data'></td>
+			</tr>
+		</tbody>
+	</table>
+	<h1>Add User</h1>
+	<form class='form'>First Name
+		<input id='first_input' type='text' value='First Name'></form>
+	<form class='form'>First Name
+		<input id='last_input' type='text' value='Last Name'></form>
+	<form class='form'>Email Address
+		<input id='email_input' type='text' value='Email'></form>
+	<form class='form'>Phone Number
+		<input id='phone_input' type='text' value='Phone #'></form>
+	<button class='btn'>Add User</button>
+</body>
+</html>

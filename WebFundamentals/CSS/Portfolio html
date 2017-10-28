@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="portfolio css">
+  <title>Portfolio</title>
+  <div>
+    <div id="headline">
+    <h1>Jayne Doe</h1></div>
+    <div id="head_right">
+    <h3>Sleeper of all Days</h3></div>
+    </div>
+</head>
+<body>
+  <div id="body">
+    <div id="picture">
+    <img src="images/photo_of_me.jpg" alt="Profile Picture"></div>
+    <div id="about"><div id="about_header">
+      <h3>About...</h3>
+    </div>
+    <div id="about_body"><p><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, in. Harum aperiam aliquam laboriosam ullam eligendi magni laudantium culpa alias ratione, unde autem laborum quis nisi natus excepturi inventore nihil!</div></p>
+      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio aliquid hic magnam numquam, dolorem at dolor, nam eveniet distinctio asperiores commodi iure illo provident suscipit, soluta aspernatur deleniti reiciendis.</div>
+    </div>
+    </div>
+    <div id="columns">
+    <div id="la_mode">
+      <div class="column_header"><h3>La Mode</h3></div>
+      <div>
+        <img src="" alt="">
+        </div>
+      <div class="column_about">
+        <p><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, in. Harum aperiam aliquam laboriosam ullam eligendi magni laudantium culpa alias ratione, unde autem laborum quis nisi natus excepturi inventore nihil!</div></p>
+      </div>
+      <div class="tech"><h4>Technologies:</h4></div>
+      <div class="tech_png">
+        <img src="python.png" alt="Whoops!">
+      </div>
+    </div>
+    <div id="family">
+      <div class="column_header">
+        <h3>Family Contacts</h3></div>
+      <div>
+        <img src="" alt=""></div>
+      <div class="column_about"><p><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis delectus voluptate sapiente voluptatem harum deleniti suscipit ipsum magni, totam explicabo dolores nulla tempore. Suscipit minima corrupti aut nobis, provident rerum.</div></p></div>
+    <div class="tech"><h4>Technologies:</h4></div>
+   <div class="tech_png">
+     <img src="python.png" alt="Whoops!">
+   </div>
+    </div>
+    <div id="fiveeleven">
+      <div class="column_header">
+        <h3>fiveEleven</h3>
+      </div>
+    <div>
+      <img src="" alt=""></div>
+      <div class="column_about">
+        <p><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odio minima labore illo dolorem debitis doloremque laborum harum perspiciatis expedita! Vero cupiditate pariatur omnis porro accusamus sunt voluptas distinctio at.</div></p>
+      </div>
+   <div class="tech"><h4>Technologies:</h4></div>
+  <div class="tech_png">
+    <img src="python.png" alt="Whoops!">
+   </div>
+    </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Follow me on Social Media!</p>
+    <p></p>
+  </div>
+</body>

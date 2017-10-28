@@ -1,0 +1,79 @@
+#header{
+  background-color: rgb(36,80,118);
+  width: 100%;
+  height: 60%;
+}
+#python{
+  display: inline-block;
+  width: 40%;
+}
+.textsize{
+  display: inline-block;
+  margin-left: 40%;
+  margin-right: 5%;
+  color: white;
+}
+#searchbar{
+  margin-left: 80%;
+  background color: red;
+  display: inline-block;
+}
+#nav{
+  background-color:rgb(72,127,173);
+  margin: 2%;
+  height: 2%;
+  border-radius: 5px;
+}
+.nav_text{
+  display:inline-block;
+  margin: 0 1% 0 6%;
+  padding: 1%;
+  color: white;
+}
+#directory{
+  display: inline-block;
+  margin: 0 5% 0 10%;
+  color: white;
+  
+}
+#header_text{
+  width: 40%;
+  display: inline-block;
+  margin: 0% 1% 1% 1%;
+  color: white;/**/
+  padding: 5%;
+  text-align: center;
+}
+#motto{
+  padding-left: 30%;
+  color: gold;
+  font-style: italic;
+  text-align: center;
+}
+#zen{
+  color: white;
+  font-style: normal;
+}
+#col_left{
+  margin-left: 10%;
+  width:30%;
+  padding: 1%;
+  display: inline-block;
+}
+#col_right{
+  margin-left: 5%;
+  width:30%;
+  padding: 1%;
+  display: inline-block;
+}
+#footer{
+  background-color: rgb(36,80,118);
+  height: 30%;
+  padding-left: 25%;
+}
+.footer_text{
+  margin-left: 5%;
+  padding: 1%;
+  color: white;
+  display: inline-block;
+}

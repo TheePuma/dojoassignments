@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function attach_handlers(){
+
+			$('.alert').click(function(){
+				alert('you clicked me');
+			});
+		}
+
+			$(document).ready(function(){
+
+				attach_handlers();
+
+				$('.newbutton').click(function(){
+					$('#buttons').append("<button class='alert'>click for message</button>")
+					attach_handlers();
+				});
+			});
+	</script>
+</head>
+<body>
+	<h2>static content</h2>
+	<div>
+	<button class="alert">click for message</button>
+	<button class="alert">click for message</button>
+	<button class="alert">click for message</button>
+	<button class="alert">click for message</button>
+	<button class='newbutton'>click me to add a new button</button>
+	</div>
+	<h3>dynamic content</h3>
+	<div id="buttons"></div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Card</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="card.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $('#collectID').submit(function(e){
+        e.preventDefault();
+        var name = $('.nameFL').val();
+        var email = $('.emailI').val();
+        var description = $('.about').val();    
+        $('.contact').append("<div class=\"card\"><h3 class=\"cName\">" + name + "</h3>" + "<h4 id=\"cEmail\><a href=\"mailto:" + email + "\">" + email + "</a></h4>" + "<p id=\"cAbout\" style=\"display:none\">" + description + "</p></div>");
+    })
+    $(document).on('click', '.card', function (){
+        $(this).children().toggle();
+    })
+});
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Contact Cards for Friends</h1>
+        <div id="collect">
+            <h2>Please complete the form to add new contacts</h2>
+            <form id="collectID">
+                <p>Name: <input type="text" class="nameFL" placeholder="First & Last Name"></p>
+                <p>Email: <input type="text" class="emailI" placeholder="Email"></p>
+                <p>Description: <input type="text" class="about" placeholder="About You"></p>
+                <input type="submit" class="addUser" value="Add New User">
+            </form>
+        </div>
+        <div id="allContacts">
+            <h2>See your list of Friends Below</h2>
+            <div class="contact">
+                <div class="card">
+                    <h3 class="cName"></h3>
+                    <h4 class="cEmail"><a href="mailto:blaineprather@gmail.com"></a></h4>
+                    <p class="cAbout" style="display:none"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
