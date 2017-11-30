@@ -1,0 +1,8 @@
+alexa workshop
+space facts
+var speachOutput = this.t("GET_FACT_MESSAGE")
+ask vs tell
+emit - output speech/event
+this.emit(':ask') {
+	'type': 
+}

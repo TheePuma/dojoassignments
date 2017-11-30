@@ -1,0 +1,10 @@
+pip
+pip install allows me to install packages such as django and flask that willhelp me as a developer
+
+pip uninstall allows me to uninstall packages
+
+pip list shows me all the packages i have installed
+
+pip freeze can show the packags i have installed as well as it can be used to output packages and save them into different file formats
+
+pip search shows the commands extensions and libraries etc. of the package selected

@@ -1,0 +1,3 @@
+alexa workshop
+space facts
+var speachOutput = this.t("GET_FACT_MESSAGE")

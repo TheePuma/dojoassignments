@@ -1,0 +1,18 @@
+class list {
+  list = [5,1,4,7,3]
+  }
+}
+functionOther(list){
+  current = list.head
+  runner = current.next
+  temp = null
+  while(current){
+    current.next = temp
+    temp = current
+    current = runner
+    runner = current.next
+  }
+  list.head = temp
+  return list
+}
+functionOther(list)
